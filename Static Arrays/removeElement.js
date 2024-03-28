@@ -17,3 +17,12 @@ const removeElement = (nums, val) => {
   return count
 
 };
+
+/*
+  1.create a count variable(starting at 0)
+  2.Loop through count 
+    a.Condition if current value doesn't equal "val"
+      i.Set nums[count] to nums[i]
+      ii. Increment count
+  3. Return count
+*/
